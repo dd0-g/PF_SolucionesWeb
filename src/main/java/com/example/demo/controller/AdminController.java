@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 @RequestMapping("/admin")
 public class AdminController {
 
-    
     // Mostrar formulario de login
     @GetMapping("/login")
     public String mostrarLogin() {
